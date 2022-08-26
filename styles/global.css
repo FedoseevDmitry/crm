@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+      url('../fonts/Inter-Regular.woff2') format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter Medium"), local("Inter-Medium"),
+      url('../fonts/Inter-Medium.woff2') format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter SemiBold"), local("Inter-SemiBold"),
+      url('../fonts/Inter-SemiBold.woff2') format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: local("Inter Bold"), local("Inter-Bold"),
+      url('../fonts/Inter-Bold.woff2') format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+  position: relative;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 600;
+  color: #6E6893;
+  background-color: #E5E5E5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, p, figure, fieldset {
+  margin: 0;
+}
+
+input:focus,
+button:focus,
+a:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  max-width: 1160px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
