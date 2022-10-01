@@ -11,6 +11,9 @@
   <link rel="preload" href="fonts/Inter-Medium.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <script defer src="js/script.js"></script>
+  
   <title>CRM</title>
 </head>
 <body>
@@ -449,7 +452,7 @@
   </section>
 
 
-  <div class="modal">
+  <div class="modal modal_show">
     <div class="modal__block">
       <div class="container modal__container">
 
@@ -517,7 +520,7 @@
 
               <input class="fieldset__input fieldset__input_checkbox" type="checkbox" name="discount-checkbox" checked>
               
-              <input class="fieldset__input" type="text" id="discount" name="discount">
+              <input class="fieldset__input fieldset__input_checkbox-input" type="text" id="discount" name="discount">
             </div>
 
             <label class="fieldset__label fieldset__label_textarea">

@@ -8,6 +8,10 @@
   display: none;
 }
 
+.modal_show {
+  display: flex;
+}
+
 .modal__block {
   margin: auto;
 }
@@ -34,7 +38,6 @@
   align-items: center;
   width: 97px;
   height: 15px;
-  display: none;
 }
 
 .id__number {
